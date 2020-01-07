@@ -1,0 +1,53 @@
+body{
+	background-color:green;	
+	margin:auto;
+	width:1583px;
+	height:1000px;
+}
+
+
+@keyframes colorchange{
+	0%{background-color:blue;}
+	50%{background-color:red;}
+	100%{background-color:green;}
+}
+#div_1{
+	position:relative;
+	width:791px;
+	height:500px;
+	animation-name:colorchange;
+	animation-duration:15s;
+	animation-iteration-count:infinite;
+}
+#div_2{
+	position:relative;
+	width:791px;
+	height:500px;
+	bottom:500px;
+	left:791px;
+	animation-name:colorchange;
+	animation-duration:15s;
+	animation-delay:1s;
+	animation-iteration-count:infinite;
+}
+#div_3{
+	position:relative;
+	width:791px;
+	height:500px;
+	bottom:500px;
+	animation-name:colorchange;
+	animation-duration:15s;
+	animation-delay:3s;
+	animation-iteration-count:infinite;
+}
+#div_4{
+	position:relative;
+	width:791px;
+	height:500px;
+	bottom:1000px;
+	left:791px;
+	animation-name:colorchange;
+	animation-duration:15s;
+	animation-delay:6s;
+	animation-iteration-count:infinite;
+}
